@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ .Lang }}">
+<html class="h-100" lang="{{ .Lang }}">
   <head>
     {{ partial "head-meta" . }}
 
@@ -23,7 +23,7 @@
 
     {{ partial "head-custom.html" . }}
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     {{ block "header" . }}
       {{ partial "header" . }}
     {{ end }}
