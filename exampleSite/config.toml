@@ -80,15 +80,6 @@ googleAnalytics = "UA-47268287-3"
   # Default author
   author = "John Doe"
 
-  # Syntax highlighting is disabled by default
-  # highlight = true
-
-  # highlight.js style
-  # highlightStyle = "atom-one-light"
-
-  # highlighting language support
-  # highlightLanguages = ["bash"]
-
   # Date format (default: Jan 2, 2006)
   # date_format = "Jan 2, 2006"
 
