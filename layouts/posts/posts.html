@@ -1,0 +1,10 @@
+{{ define "main" }}
+  {{ range $key, $taxonomy := .Site.Taxonomies.categories }}
+    <h2>{{ replace $key "-" " " | title }}</h2>
+    <ul>
+    {{ range $taxonomy.Pages }}
+      <li><a href="{{ .Permalink}}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}
