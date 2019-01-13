@@ -6,7 +6,7 @@
     {{ if .Truncated }}
     <p>{{ .Params.Summary }}</p>
     <a href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a>
-    {{ partial "post-categories" . }}
     {{ partial "post-tags" . }}
+    {{ partial "post-categories" . }}
     {{ end }}
 </article>

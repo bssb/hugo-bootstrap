@@ -3,8 +3,6 @@
 <header>
     {{ partial "post-title" . }}
     {{ partial "post-date" . }}
-    {{ partial "post-tags" . }}
-    {{ partial "post-categories" . }}
     <hr>
 </header>
 <article class="blog-post">
@@ -20,6 +18,10 @@
         {{ end }}
       </ul>
     {{ end }}
+    <hr>
+    {{ partial "post-tags" . }}
+    {{ partial "post-categories" . }}
+    <hr>
 
     {{ partial "related" . }}
 
